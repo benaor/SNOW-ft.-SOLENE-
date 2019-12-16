@@ -1,0 +1,17 @@
+/*PARTIE CITATION*/
+body{
+    margin: 0;
+}
+
+/*CAROUSEL-1*/  
+.citation .container-fluid{
+    background-image: url("images/img_citation.png");
+}
+
+.sponsors .container-fluid{
+    background-color: white;
+}
+
+.blog .container-fluid{
+    background-color: #f6f6f6;
+}
