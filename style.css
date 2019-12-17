@@ -10,8 +10,10 @@ body{
 
 .sponsors .container-fluid{
     background-color: white;
+    
 }
 
 .blog .container-fluid{
     background-color: #f6f6f6;
+    height: 857px;
 }
