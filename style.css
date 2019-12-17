@@ -53,3 +53,42 @@ body{
 }
 
 /*PARTIE CONTACT*/
+.contact .container-fluid{
+    background-color: #f6f6f6;
+    height: 623px;
+}
+
+
+/*FORMULAIRE*/
+
+.form-group-1{
+    width: 320px;
+    height: 48px;
+}
+textarea{
+    resize: none;
+    height: 170px;
+    width: 670px;
+}
+
+
+/*PARTIE FOOTER*/
+
+footer .container-fluid-1{
+    background-color: black;
+    height: 413px;
+}
+
+footer p{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+/*PARTIE COPYRIGHT*/
+footer .container-fluid-2{
+    background-color: black;
+    height: 70px;
+}
