@@ -12,8 +12,42 @@ body{
     background-color: white;
     
 }
-
+/*PARTIE BLOG*/
 .blog .container-fluid{
     background-color: #f6f6f6;
     height: 857px;
+}
+
+.blog .carousel-item{
+    width: 80%;
+}
+
+/*BARRE DE DEFILEMENT*/
+.blog .carousel-indicators li{
+        box-sizing: content-box;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 30px;
+        height: 3px;
+        margin-right: 3px;
+        margin-left: 3px;
+        cursor: pointer;
+        background-color: black;
+        background-clip: content-box;
+        transition: opacity .6s ease;
+}
+.blog .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
 }
