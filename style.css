@@ -1,8 +1,10 @@
-/*PARTIE CITATION*/
+/*FONT FAMILY*/
+
 body{
     margin: 0;
 }
 
+/*PARTIE CITATION*/
 /*CAROUSEL-1*/  
 .citation .container-fluid{
     background-image: url("images/img_citation.png");
@@ -17,6 +19,7 @@ body{
     background-color: #f6f6f6;
     height: 857px;
 }
+
 
 .blog .carousel-item{
     width: 80%;
@@ -52,6 +55,15 @@ body{
     list-style: none;
 }
 
+.blog h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+
+}
+.blog .card-text-little{
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+}
 /*PARTIE CONTACT*/
 .contact .container-fluid{
     background-color: #f6f6f6;
@@ -59,6 +71,10 @@ body{
 }
 
 
+.contact h2, .blog h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+}
 /*FORMULAIRE*/
 
 .form-group-1{
@@ -78,9 +94,13 @@ footer .container-fluid-1{
     background-color: black;
     height: 413px;
 }
-
-footer p{
-    color: white;
+ 
+footer h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+footer p, .contact p, .blog p{
+    font-family: 'Work Sans', sans-serif;
     font-size: 15px;
 }
 
