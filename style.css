@@ -55,15 +55,19 @@ body{
     list-style: none;
 }
 
+
 .blog h3{
     font-family: 'Playfair Display', serif;
     font-size: 20px;
 
 }
-.blog .card-text-little{
+.blog  .text-dark{
     font-size: 12px;
     font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: black !important;
 }
+
 /*PARTIE CONTACT*/
 .contact .container-fluid{
     background-color: #f6f6f6;
