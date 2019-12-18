@@ -3,12 +3,69 @@
 body{
     margin: 0;
 }
-
-/*PARTIE CITATION*/
-/*CAROUSEL-1*/  
+/**************CONTAINER-FLUID**************/
 .citation .container-fluid{
     background-image: url("images/img_citation.png");
 }
+.sponsors .container-fluid{
+    background-color: white;
+}
+.blog .container-fluid{
+    background-color: #f6f6f6;
+    height: 857px;
+}
+.contact .container-fluid{
+    background-color: #f6f6f6;
+    height: 623px;
+}
+
+footer .container-fluid-1{
+    background-color: black;
+    height: 413px;
+}
+footer .container-fluid-2{
+    background-color: black;
+    height: 70px;
+}
+
+/**************TITRES ET PARAGRAPHES***********/
+.blog h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+
+}
+.blog  .text-dark{
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: black !important;
+}
+
+.contact .title-contact{
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    padding-top: 95px;
+}
+
+.blog h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    padding-top: 109px;
+}
+footer .title-footer{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding-top: 93px;
+}
+footer .p-about, .contact p, .blog p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+footer .logo-twitter-1{
+    color: white;
+}
+
+/*CAROUSEL-CITATION*/  
 
 .citation .carousel-caption {
     position: absolute;
@@ -23,16 +80,21 @@ body{
    width: 100%;
    left: 23%;
 }
-.sponsors .container-fluid{
-    background-color: white;
-}
-/*PARTIE BLOG*/
-.blog .container-fluid{
-    background-color: #f6f6f6;
-    height: 857px;
+
+/*BARRE DE DEFILEMENT*/
+.citation .carousel-indicators li{
+    width: .625rem;
+    height: .625rem;
+    cursor: pointer;
+    border-radius: 50%;
+        background-color: white;
+        background-clip: content-box;
+        transition: opacity .6s ease;
 }
 
+/*****************/
 
+/**************CAROUSEL-BLOG**************/ 
 carousel-item {
     position: relative;
     display: none;
@@ -45,14 +107,10 @@ carousel-item {
 
 /*BARRE DE DEFILEMENT*/
 .blog .carousel-indicators li{
-        box-sizing: content-box;
-        -ms-flex: 0 1 auto;
-        flex: 0 1 auto;
-        width: 30px;
-        height: 3px;
-        margin-right: 3px;
-        margin-left: 3px;
-        cursor: pointer;
+    width: .625rem;
+    height: .625rem;
+    cursor: pointer;
+    border-radius: 50%;
         background-color: black;
         background-clip: content-box;
         transition: opacity .6s ease;
@@ -72,31 +130,14 @@ carousel-item {
     margin-left: 15%;
     list-style: none;
 }
+/*********************/
 
-
-.blog h3{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-
-}
-.blog  .text-dark{
-    font-size: 12px;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 600;
-    color: black !important;
+footer .logos{
+    max-width: 164px;
+    width: 100%;
 }
 
-/*PARTIE CONTACT*/
-.contact .container-fluid{
-    background-color: #f6f6f6;
-    height: 623px;
-}
-
-.contact h2, .blog h2{
-    font-family: 'Playfair Display', serif;
-    font-size: 38px;
-}
-/*FORMULAIRE*/
+/**********FORMULAIRE***********/
 
 .form-group-1{
     width: 320px;
@@ -105,33 +146,9 @@ carousel-item {
 textarea{
     resize: none;
     height: 170px;
-    width: 80%;
-   
+    width: 80%; 
 }
 
 .contact .bouton{
     width: 180px;
-}
-
-/*PARTIE FOOTER*/
-
-footer .container-fluid-1{
-    background-color: black;
-    height: 413px;
-}
- 
-footer h2{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
-}
-footer p, .contact p, .blog p{
-    font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
-}
-
-
-/*PARTIE COPYRIGHT*/
-footer .container-fluid-2{
-    background-color: black;
-    height: 70px;
 }
