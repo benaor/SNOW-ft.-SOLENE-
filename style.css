@@ -1,4 +1,3 @@
-
 /* -------------------------------------PARTIE 1 -------------------------------------------*/
 
 .bg-dark{
@@ -158,4 +157,156 @@ header p, header a{
         width: 100% !important;
         height: auto;
     }
+}
+
+/*FONT FAMILY*/
+
+body{
+    margin: 0;
+}
+/**************CONTAINER-FLUID**************/
+.citation .container-fluid{
+    background-image: url("images/img_citation.png");
+}
+.sponsors .container-fluid{
+    background-color: white;
+}
+.blog .container-fluid{
+    background-color: #f6f6f6;
+    height: 857px;
+}
+.contact .container-fluid{
+    background-color: #f6f6f6;
+    height: 623px;
+}
+
+footer .container-fluid-1{
+    background-color: black;
+    height: 413px;
+}
+footer .container-fluid-2{
+    background-color: black;
+    height: 70px;
+}
+
+/**************TITRES ET PARAGRAPHES***********/
+.blog h3{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+
+}
+.blog  .text-dark{
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: black !important;
+}
+
+.contact .title-contact{
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    padding-top: 95px;
+}
+
+.blog h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    padding-top: 109px;
+}
+footer .title-footer{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    padding-top: 93px;
+}
+footer .p-about .p-tweet, .contact p, .blog p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+
+/*CAROUSEL-CITATION*/  
+
+.citation .carousel-caption {
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 160px;
+    font-family: 'Playfair Display', serif;
+   font-style: italic;
+   font-size: 20px;
+   max-width: 600px;
+   width: 100%;
+   left: 23%;
+}
+
+/*BARRE DE DEFILEMENT*/
+.citation .carousel-indicators li{
+    width: .625rem;
+    height: .625rem;
+    cursor: pointer;
+    border-radius: 50%;
+        background-color: white;
+        background-clip: content-box;
+        transition: opacity .6s ease;
+}
+
+/*****************/
+
+/**************CAROUSEL-BLOG**************/ 
+carousel-item {
+    position: relative;
+    display: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+}
+
+/*BARRE DE DEFILEMENT*/
+.blog .carousel-indicators li{
+    width: .625rem;
+    height: .625rem;
+    cursor: pointer;
+    border-radius: 50%;
+        background-color: black;
+        background-clip: content-box;
+        transition: opacity .6s ease;
+}
+.blog .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -90px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+/*********************/
+
+footer .logos{
+    max-width: 164px;
+    width: 100%;
+}
+
+/**********FORMULAIRE***********/
+
+.form-group-1{
+    width: 320px;
+    height: 48px;
+}
+textarea{
+    resize: none;
+    height: 170px;
+    width: 80%; 
+}
+
+.contact .bouton{
+    width: 180px;
 }
