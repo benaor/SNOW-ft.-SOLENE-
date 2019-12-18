@@ -57,12 +57,9 @@ footer .title-footer{
     font-size: 20px;
     padding-top: 93px;
 }
-footer .p-about, .contact p, .blog p{
+footer .p-about .p-tweet, .contact p, .blog p{
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
-}
-footer .logo-twitter-1{
-    color: white;
 }
 
 /*CAROUSEL-CITATION*/  
