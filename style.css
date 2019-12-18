@@ -19,8 +19,14 @@ body{
     height: 857px;
 }
 
-.blog .carousel-item{
-    width: 80%;
+carousel-item {
+    position: relative;
+    display: none;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: -webkit-transform .6s ease-in-out;
+    transition: transform .6s ease-in-out;
+    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
 }
 
 /*BARRE DE DEFILEMENT*/
@@ -109,9 +115,4 @@ footer p, .contact p, .blog p{
 footer .container-fluid-2{
     background-color: black;
     height: 70px;
-}
-
-footer .img-insta{
-    width: 370px;
-    margin: 10px  0px;
 }
