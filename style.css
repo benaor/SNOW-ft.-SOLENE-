@@ -96,9 +96,17 @@ header p, header a{
     margin: 0 1.2rem;
 }
 
+/* ---------------------------------- PARTIE 4 ------------------------------------------- */
+
 .projects img, .projects .card{
     width: 370px;
 }
+
+.card-columns .card{
+    margin: 15px auto;
+    padding: 0;
+}
+
 
 @media screen and (max-width : 1200px){
 
@@ -110,12 +118,20 @@ header p, header a{
 @media screen and (max-width : 992px){
 
     .card-columns{
-        column-count: 1;
+        column-count: 2;
+    }
+
+    .card{
+        width: 100% !important;
+        height: auto;
     }
 }
 
 @media screen and (max-width : 768px){
-
+   .container{
+        max-width: none;
+    }
+    
     .navbar-nav{
         display: flex;
         flex-direction: column;
@@ -131,16 +147,19 @@ header p, header a{
     .card-columns{
         column-count: 1;
     }
+
+    .card{
+        width: 100% !important;
+        height: auto;
+    }
 }
+
 
 @media screen and (max-width : 576px){
 
     .card-columns{
         display: none;
     }
-}
 
-.card-columns .card{
-    margin: 15px auto;
-    padding: 0;
+ 
 }
