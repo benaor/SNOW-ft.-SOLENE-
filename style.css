@@ -12,14 +12,12 @@ body{
 
 .sponsors .container-fluid{
     background-color: white;
-    
 }
 /*PARTIE BLOG*/
 .blog .container-fluid{
     background-color: #f6f6f6;
     height: 857px;
 }
-
 
 .blog .carousel-item{
     width: 80%;
@@ -74,7 +72,6 @@ body{
     height: 623px;
 }
 
-
 .contact h2, .blog h2{
     font-family: 'Playfair Display', serif;
     font-size: 38px;
@@ -90,7 +87,6 @@ textarea{
     height: 170px;
     width: 670px;
 }
-
 
 /*PARTIE FOOTER*/
 
@@ -109,10 +105,13 @@ footer p, .contact p, .blog p{
 }
 
 
-
-
 /*PARTIE COPYRIGHT*/
 footer .container-fluid-2{
     background-color: black;
     height: 70px;
+}
+
+footer .img-insta{
+    width: 370px;
+    margin: 10px  0px;
 }
