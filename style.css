@@ -1,26 +1,146 @@
-body{
-    margin: 0;
-    padding: 0;
-}
+
+/* -------------------------------------PARTIE 1 -------------------------------------------*/
 
 .bg-dark{
     background-color: #636363 !important;
+    height: 100vh;
 }
 
-a{
+.container, .contenu-header {
+    height: 95%;
+}
+
+.navbar{
+    position: relative;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-nav li{
+    margin: auto 30px;
+    font-weight: bold;
+}
+
+.navbar-collapse{
+    position: absolute;
+    width: 330px;
+    height: 40px;
+    top: .4rem;
+    right: 5rem;
+}
+
+.new_branding{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.branding {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic{
+    font-style: italic;
+}
+
+header p, header a{
+    color: #f6f6f6;
     text-decoration: none !important;
-    color: #ffffff;
 }
 
-.text-header p{
-    color: #ffffff;
+.bouton_header {
+    animation: 1.5s bougetamere infinite ;
+    border-radius: 50%/50%;
+
 }
 
-.contenu-header {
-    min-height: 600px;
+@keyframes bougetamere {
+
+    0%{
+        transform: translateY(-10px);
+    }
+
+    50%{
+        transform: translateY(0px);
+        box-shadow:white 0px 0px 2px;
+    }
+
+    100%{
+        transform: translateY(-10px);
+    }
 }
 
+
+/* ----------------------------------- PARTIE 2 ---------------------------------------- */
 .signature {
     background-color: #f6f6f6;
-    height: 500px;
+}
+
+.compteur{
+    background-image: url(images/fond_pt3.png);
+    background-repeat: repeat-y repeat-x;
+    min-height: 258px;
+    color: #f6f6f6;
+}
+
+.compteur p{
+    padding: 0 ;
+    margin: 0 1.2rem;
+}
+
+.projects img, .projects .card{
+    width: 370px;
+}
+
+@media screen and (max-width : 1200px){
+
+    .card-columns{
+        column-count: 2;
+    }
+}
+
+@media screen and (max-width : 992px){
+
+    .card-columns{
+        column-count: 1;
+    }
+}
+
+@media screen and (max-width : 768px){
+
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .navbar-collapse{
+        position: absolute;
+        width: 330px;
+        height: 40px;
+        top: .4rem;
+    }
+
+    .card-columns{
+        column-count: 1;
+    }
+}
+
+@media screen and (max-width : 576px){
+
+    .card-columns{
+        display: none;
+    }
+}
+
+.card-columns .card{
+    margin: 15px auto;
+    padding: 0;
 }
