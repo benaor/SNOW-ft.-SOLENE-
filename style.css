@@ -5,7 +5,7 @@
     height: 100vh;
 }
 
-.container, .contenu-header {
+.container-header, .contenu-header {
     height: 95%;
 }
 
@@ -223,6 +223,10 @@ footer .p-about .p-tweet, .contact p, .blog p{
     font-size: 14px;
 }
 
+footer li{
+    list-style-image: url('images/logo-twitter.png');
+}
+
 /*CAROUSEL-CITATION*/  
 
 .citation .carousel-caption {
@@ -295,6 +299,13 @@ footer .logos{
     width: 100%;
 }
 
+footer  .border-dark{
+        border-color: #252525!important;
+}
+
+.contact .border-light{
+    border-color: #ececec!important;
+}
 /**********FORMULAIRE***********/
 
 .form-group-1{
@@ -310,3 +321,5 @@ textarea{
 .contact .bouton{
     width: 180px;
 }
+/************/
+
