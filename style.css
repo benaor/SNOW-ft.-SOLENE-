@@ -177,7 +177,7 @@ body{
 }
 .contact .container-fluid{
     background-color: #f6f6f6;
-    height: 623px;
+    height: auto;
 }
 
 footer .container-fluid-1{
@@ -205,7 +205,7 @@ footer .container-fluid-2{
 .contact .title-contact{
     font-family: 'Playfair Display', serif;
     font-size: 38px;
-    padding-top: 95px;
+
 }
 
 .blog h2{
@@ -229,6 +229,7 @@ footer .p-about .p-tweet, .contact p, .blog p, .text-copyright{
 
 footer li{
     list-style-image: url('images/logo-twitter.png');
+    margin-left: 5px;
 }
 
 /**********CAROUSEL-CITATION**********/  
@@ -312,11 +313,9 @@ footer  .border-dark{
 }
 
 /**********FORMULAIRE***********/
-.form-row{
-    padding-top: 113px;
-}
+
 .form-group-1{
-    width: 320px;
+    width: auto;
     height: 48px;
 }
 textarea{
@@ -328,35 +327,131 @@ textarea{
 .contact .bouton{
     width: 180px;
 }
+
+.form-control {
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#message{
+    width: 100%;
+}
 /************/
 
 @media screen and (max-width : 1200px){
-
-
-}
-
-@media screen and (max-width : 992px){
-    
-}
-
-@media screen and (max-width : 768px){
-   footer .img-2{
-       display: none;
-   }
-footer .img-1{
-        padding-right: 10px;
-        
+    footer .col-4 {
+        padding-bottom: 25px;
     }
     
+}
+
+
+
+@media screen and (max-width : 992px){
+
+
+    .blog h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        padding-top: 90px;
+    
+    }
+
+    .blog h3{
+        font-size: 20px;
+    }
+
+    .img-2{
+        display: none;
+    }
+
+    .cdf{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width : 768px){
+ 
+    footer .bloc-insta-principal{
+        display: none;
+    }
+    .cdf{
+        flex-direction: column;
+    }
+
    
     footer .col-md-4{
         padding-bottom: 25px;
     }
-}
-
-@media screen and (max-width : 576px){
-    .bloc-insta{
+    footer .img-2{
         display: none;
     }
 
+    .blog h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        padding-top: 80px;
+    }
+
+    .blog h3{
+        font-size: 15px;
+    }
+
+    .blog .text-dark {
+        font-size: 10px;
+
+    }
+
+    }
+
+    .contact .title-contact {
+        font-size: 38px;
+  
+        }
+
+}
+
+
+@media screen and (max-width : 576px){
+    footer .bloc-insta-principal{
+        display: none;
+    }
+
+    footer .col-sm-4{
+        padding-bottom: 25px;
+    }
+    footer p, li, .contact p, .blog p, .text-copyright{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 10px;
+    }
+
+    .blog h2{
+        font-family: 'Playfair Display', serif;
+        font-size: 38px;
+        padding-top: 55px;
+    }
+
+    .blog .text-dark {
+        font-size: 10px;
+    }
+
+    .contact .title-contact {
+    font-size: 30px;
+    padding-top: 55px;
+    }
+
+    
 }
