@@ -182,11 +182,11 @@ body{
 
 footer .container-fluid-1{
     background-color: black;
-    height: 413px;
+    height: auto;
 }
 footer .container-fluid-2{
     background-color: black;
-    height: 70px;
+    height: auto;
 }
 
 /**************TITRES ET PARAGRAPHES***********/
@@ -218,7 +218,7 @@ footer .title-footer{
     font-size: 20px;
     padding-top: 93px;
 }
-footer .p-about .p-tweet, .contact p, .blog p{
+footer .p-about .p-tweet, .contact p, .blog p, .text-copyright{
     font-family: 'Work Sans', sans-serif;
     font-size: 14px;
 }
@@ -336,25 +336,22 @@ textarea{
 }
 
 @media screen and (max-width : 992px){
-    .citation .carousel-caption {
-
-        
-        padding-bottom: 93px;
-       
-        left: 19%;
     
-    }
 }
 
 @media screen and (max-width : 768px){
    footer .img-2{
        display: none;
-
    }
 footer .img-1{
         padding-right: 10px;
+        
     }
+    
    
+    footer .col-md-4{
+        padding-bottom: 25px;
+    }
 }
 
 @media screen and (max-width : 576px){
