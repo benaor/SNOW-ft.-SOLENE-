@@ -274,7 +274,7 @@ footer li{
     border-radius: 50%;
     background-color: white;
     background-clip: content-box;
-    transition: opacity .6s ease;
+    transition: opacity .1s ease;
 }
 
 /*****************/
@@ -282,12 +282,11 @@ footer li{
 /**************CAROUSEL-BLOG**************/ 
 .carousel-item {
     position: relative;
-    display: none;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transition: -webkit-transform .6s ease-in-out;
-    transition: transform .6s ease-in-out;
-    transition: transform .6s ease-in-out,-webkit-transform .6s ease-in-out;
+    transition: -webkit-transform .1s ease-in-out;
+    transition: transform .1s ease-in-out;
+    transition: transform .1s ease-in-out,-webkit-transform .6s ease-in-out;
 }
 
 /*BARRE DE DEFILEMENT*/
